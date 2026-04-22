@@ -4,7 +4,7 @@ export default function CardFour() {
   return (
     <div className="relative w-[270px] h-[480px] bg-black rounded-[18px] overflow-hidden scanlines grain">
       <img
-        src="/unitree-alt-3.png"
+        src="./unitree-alt-3.png"
         alt="Unitree robot"
         className="absolute pointer-events-none animate-float"
         style={{
@@ -28,7 +28,7 @@ export default function CardFour() {
       <div className="relative z-10 flex flex-col h-full justify-between p-5">
         <div className="flex items-center justify-between">
           <img
-            src="/futurology-logo-inverted.png"
+            src="./futurology-logo-inverted.png"
             alt="Futurology"
             className="h-6 w-auto"
             style={{

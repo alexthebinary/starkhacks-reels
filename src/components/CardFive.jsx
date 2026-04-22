@@ -4,7 +4,7 @@ export default function CardFive() {
   return (
     <div className="relative w-[270px] h-[480px] bg-white rounded-[18px] overflow-hidden">
       <img
-        src="/unitree-product-2.png"
+        src="./unitree-product-2.png"
         alt="Unitree G1 in motion"
         className="absolute pointer-events-none animate-float"
         style={{
@@ -29,7 +29,7 @@ export default function CardFive() {
       <div className="relative z-10 flex flex-col h-full justify-between p-5">
         <div>
           <img
-            src="/futurology-logo.png"
+            src="./futurology-logo.png"
             alt="Futurology"
             className="h-6 w-auto mb-1.5"
           />

@@ -1,0 +1,26 @@
+{
+  "name": "starkhacks-remotion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render-all": "remotion render src/index.ts reel-01-hero ../Reels/reel-01-hero.mp4 && remotion render src/index.ts reel-02-robot ../Reels/reel-02-robot.mp4 && remotion render src/index.ts reel-03-video ../Reels/reel-03-video.mp4 && remotion render src/index.ts reel-04-stats ../Reels/reel-04-stats.mp4 && remotion render src/index.ts reel-05-bts ../Reels/reel-05-bts.mp4 && remotion render src/index.ts reel-06-cta ../Reels/reel-06-cta.mp4 && remotion render src/index.ts card-one ../Reels/card-one.mp4 && remotion render src/index.ts card-two ../Reels/card-two.mp4 && remotion render src/index.ts card-three ../Reels/card-three.mp4 && remotion render src/index.ts card-four ../Reels/card-four.mp4 && remotion render src/index.ts card-five ../Reels/card-five.mp4 && remotion render src/index.ts card-six ../Reels/card-six.mp4 && remotion render src/index.ts card-spec-hardware ../Reels/card-spec-hardware.mp4 && remotion render src/index.ts card-spec-software ../Reels/card-spec-software.mp4 && remotion render src/index.ts card-spec-gestures ../Reels/card-spec-gestures.mp4 && remotion render src/index.ts card-spec-dances ../Reels/card-spec-dances.mp4 && remotion render src/index.ts card-spec-controller ../Reels/card-spec-controller.mp4",
+    "render-cards": "remotion render src/index.ts card-one ../Reels/card-one.mp4 && remotion render src/index.ts card-two ../Reels/card-two.mp4 && remotion render src/index.ts card-three ../Reels/card-three.mp4 && remotion render src/index.ts card-four ../Reels/card-four.mp4 && remotion render src/index.ts card-five ../Reels/card-five.mp4 && remotion render src/index.ts card-six ../Reels/card-six.mp4 && remotion render src/index.ts card-spec-hardware ../Reels/card-spec-hardware.mp4 && remotion render src/index.ts card-spec-software ../Reels/card-spec-software.mp4 && remotion render src/index.ts card-spec-gestures ../Reels/card-spec-gestures.mp4 && remotion render src/index.ts card-spec-dances ../Reels/card-spec-dances.mp4 && remotion render src/index.ts card-spec-controller ../Reels/card-spec-controller.mp4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "^4.0.450",
+    "@remotion/google-fonts": "^4.0.450",
+    "@remotion/player": "^4.0.450",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "remotion": "^4.0.450",
+    "typescript": "^6.0.3"
+  }
+}

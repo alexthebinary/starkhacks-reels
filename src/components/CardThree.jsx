@@ -5,7 +5,7 @@ export default function CardThree() {
   return (
     <div className="relative w-[270px] h-[480px] bg-white rounded-[18px] overflow-hidden font-inter">
       <img
-        src="/unitree-product-2.png"
+        src="./unitree-product-2.png"
         alt="Unitree G1 robot"
         className="absolute pointer-events-none animate-float"
         style={{
@@ -26,7 +26,7 @@ export default function CardThree() {
           className="flex items-center gap-2 animate-fade-in-up"
           style={{ animationDelay: '0.1s', opacity: 0 }}
         >
-          <img src="/starkhacks-logo.svg" alt="" className="w-5 h-5" />
+          <img src="./starkhacks-logo.svg" alt="" className="w-5 h-5" />
           <span
             className="font-grotesk uppercase text-black"
             style={{ fontSize: '12px', letterSpacing: '0.26em' }}
@@ -109,7 +109,7 @@ export default function CardThree() {
             }}
           >
             <span className="text-amber-400">★</span>
-            $100K + UNITREE G1 EDU+ GRAND PRIZE
+            $100,000 IN TOTAL PRIZES · PRESENTED ON A G1 EDU+
           </span>
           <PartnerLockup theme="light" />
         </div>

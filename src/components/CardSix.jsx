@@ -83,15 +83,16 @@ export default function CardSix() {
             className="font-source-serif italic text-amber-300 mt-1"
             style={{ fontSize: '22px', lineHeight: 1.1 }}
           >
-            + one Unitree
+            in total
             <br />
-            G1 EDU+.
+            prizes.
           </p>
           <p
             className="font-poppins text-white/70 leading-relaxed mt-4"
             style={{ fontSize: '11px', maxWidth: '240px' }}
           >
-            Awarded live at StarkHacks 2026 — Purdue Armory, April 17–19.
+            Presented live on a Unitree G1 EDU+ — StarkHacks 2026,
+            Purdue Armory, April 17–19.
           </p>
         </div>
 
@@ -104,7 +105,7 @@ export default function CardSix() {
               Presented by
             </span>
             <img
-              src="/futurology-logo-inverted.png"
+              src="./futurology-logo-inverted.png"
               alt="Futurology"
               className="h-6 w-auto"
               style={{

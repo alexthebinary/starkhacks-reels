@@ -6,7 +6,7 @@ export default function CardTwo() {
       <div
         className="absolute inset-0 z-0 animate-ken-burns-slow"
         style={{
-          backgroundImage: 'url(/starkhacks-hero.jpg)',
+          backgroundImage: 'url(./starkhacks-hero.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -53,7 +53,7 @@ export default function CardTwo() {
               className="font-semibold text-white font-inter"
               style={{ fontSize: '8px' }}
             >
-              $100,000 + Unitree G1 EDU+
+              $100,000 total prizes
             </span>
           </div>
           <h2

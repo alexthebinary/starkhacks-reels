@@ -2,7 +2,7 @@ export default function PartnerLockup({ theme = 'dark' }) {
   const label = theme === 'dark' ? 'text-white/55' : 'text-black/55'
   const divider = theme === 'dark' ? 'bg-white/20' : 'bg-black/20'
   const futurology =
-    theme === 'dark' ? '/futurology-logo-inverted.png' : '/futurology-logo.png'
+    theme === 'dark' ? './futurology-logo-inverted.png' : './futurology-logo.png'
   const unitreeFilter = theme === 'dark' ? 'invert(1) brightness(1.2)' : 'none'
 
   return (
@@ -15,13 +15,13 @@ export default function PartnerLockup({ theme = 'dark' }) {
       </span>
       <div className="flex items-center gap-3">
         <img
-          src="/purdue-logo.svg"
+          src="./purdue-logo.svg"
           alt="Purdue"
           className="h-7 w-7 rounded-[4px]"
         />
         <div className={`w-px h-5 ${divider}`} />
         <img
-          src="/unitree-logo.svg"
+          src="./unitree-logo.svg"
           alt="Unitree"
           className="h-4 w-auto"
           style={{ filter: unitreeFilter }}
